@@ -11,6 +11,8 @@ body{
 }
 .imgme{
     border-color: white;
+    box-shadow:4px 4px lightgrey;
+    margin-top: -80px;
     border-radius: 4px;
     border-style: solid;
     border-radius: 50%;
@@ -22,10 +24,10 @@ body{
     margin-top: 15px;
 }
 #scroll{
-   margin-left: 575px;
+   margin-left: 125px;
    font-family: Bahnschrift;
    font-size: 30px;
-   color:silver;
+   color:rgb(167, 53, 53);
 }
 .fa{
     padding: 20px;
@@ -36,19 +38,69 @@ body{
 }
 .fa:hover{
     opacity: 0.7;
+    font-size: 27px;
 }
 .fa-instagram{
     background-color: #125688;
     color: white;
-    margin-left: 585.5px;
+    margin-left: 593.5px;
 }
 .fa-github{
     background-color: rgb(41, 39, 39);
     color: white;
-    margin-left: 7px;
+    margin-left: 19px;
 }
 .fa-google{
     background-color: rgb(255, 123, 0);
     color: white;
-    margin-left: 7px;
+    margin-left: 19px;
+    
+}
+.fa-instagram:hover{
+  color: #125688;
+  background-color: white;
+}
+.fa-google:hover{
+  color: rgb(255, 123, 0);
+  background-color: white;
+}
+.fa-github:hover{
+  color: black;
+  background-color: white;
+}
+
+#bg{
+    background-color:#ff8356;
+    margin-top: 175px;
+    display: block;
+    width: 37%;
+    height: 325px;
+    margin-left: 440px;
+    border-radius: 9%;
+    box-shadow: 10px 10px #e5e5e5;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    display:inline-flex;
+    float: right;
+    background-color: #FEA95E;
+    margin: 0;
+    padding: 0;
+    font-family: Bahnschrift;
+    font-size: 20px;
+    border-radius:50% ;
+    width: 40px;
+    height: 40px;
+    text-align:center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    border-width: 4px;
+    border-style: double;
 }
